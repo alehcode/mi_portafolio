@@ -1,0 +1,240 @@
+body{
+	background-color: black;
+}
+
+.titulo{
+	font-size: 2em;
+	text-align: right;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-right: 40px;
+	margin-top: 40px;
+	color:white;
+}
+.imagen{
+	height: 120px;
+	opacity: 0.2;
+	margin-left: -10px;
+	margin-top: 200px;
+	position: absolute;
+}
+.subTitulo{
+	color:white;
+	text-align: center;
+	margin-top: 100px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+	
+}
+.subTitulo:hover{
+	color: #EEE;
+    text-shadow: 0px 0px 30px #FFF;
+}
+.subTituloDos{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+/* notas de pentagrama */
+.lineaUno{
+	width: 100%;
+	height: 1px;
+	background-color: #414141;
+	margin-top: 200px;
+	position: relative;
+}
+.lineaDos{
+	width: 100%;
+	height: 1px;
+	background-color: #414141;
+	margin-top: 23px;
+	position: relative;
+}
+.nota{
+	width: 18px;
+	height: 18px;
+	margin-top: -10px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	cursor: pointer;
+
+}
+.nota:hover{
+	-moz-box-shadow: 5px 5px 30px #FFF; 
+    -webkit-box-shadow: 5px 5px 30px #FFF; 
+    box-shadow: 5px 5px 30px #FFF;
+    border: 0px solid #fff;
+}
+#uno{
+	margin-left: 40%;
+	background-color: #F09134;
+}
+
+#dos{
+	margin-left: 74%;
+}
+#tres{
+	margin-left: 50%;
+}
+#cuatro{
+	margin-left: 16%;
+	background-color: #49BBBD;
+}
+#cinco{
+	margin-left: 32%;
+}
+#seis{
+	margin-left: 60%;
+	background-color: #49BBBD;
+}
+#siete{
+	margin-left: 90%;
+}
+#ocho{
+	margin-left: 80%;
+	background-color: #F09134;
+}
+#nueve{
+	margin-left: 7%;
+}
+#diez{
+	margin-left: 45%;
+}
+#once{
+	margin-left: 24%;
+}
+#doce{
+	margin-left: 68%;
+}
+.logo{    
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+   	
+    height: 60px;
+}
+ 
+.logo:hover {
+    margin-top: 2px;
+
+}
+ 
+	
+	
+}
+#sobreMiUno{
+	background-color: #F9F9F9;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	height: 600px;
+	margin-top: 80px;
+}
+#sobreMiDos{
+	background-color: #F9F9F9;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	height: 600px;
+	margin-top: 80px;
+}
+
+.sobreMi{
+	font-size: 3em;
+	margin-top: 100px;
+	color:#FF0880;
+	font-family: 'Lato', cursive;
+}
+.parrafo{
+	height: 300px;
+	font-size: 1.6em;
+	width: 70%;
+	font-family: 'Lato', cursive;
+	text-align: justify;
+}
+#btnVolver{
+	text-align: right;
+	margin-left: 60%;
+	margin-top: 20px;
+	border-radius: 10%: 
+}
+#btnSobreMi{
+	height: 40px;
+	position: absolute;
+	margin-left: 14.3%;
+	margin-top: -70px;
+	-moz-box-shadow: 0px 0px 30px #ffffff; 
+    -webkit-box-shadow: 0px 0px 30px #ffffff; 
+    box-shadow: 0px 0px 30px #ffffff;
+    border: 1px solid #fff;
+    font-family: 'Lato', sans-serif;  
+ }
+#sobremi{
+	color:#FFFFFF;
+	font-size: 1.5em;
+	margin-left: -50%;
+	margin-top: 40%;
+	position: absolute;
+}
+#btnHabilidades{
+	height: 40px;
+	position: absolute;
+	margin-left: 37.8%;
+	margin-top: -70px;
+	-moz-box-shadow: 0px 0px 30px #FFF; 
+    -webkit-box-shadow: 0px 0px 30px #FFF; 
+    box-shadow: 0px 0px 30px #FFF;
+    border: 0px solid #fff;
+    font-family: 'Lato', sans-serif;
+}
+#habilidades{
+	color:#FFFFFF;
+	font-size: 1.5em;
+	margin-left: -50%;
+	margin-top: 34%;
+	position: absolute;
+}
+#btnProyectos{	
+	height: 40px;
+	position: absolute;
+	margin-left: 57.7%;
+	margin-top: -70px;
+	-moz-box-shadow: 0px 0px 30px #FFF 
+    -webkit-box-shadow: 0px 0px 30px #FFF; 
+    box-shadow: 0px 0px 30px #FFF;
+    border: 0px solid #fff;
+    font-family: 'Lato', sans-serif;
+}
+#proyectos{
+	color:#FFFFFF;
+	font-size: 1.5em;
+	margin-left: -50%;
+	margin-top: 40%;
+	position: absolute;
+}
+#btnContactame{
+	
+	height: 40px;
+	position: absolute;
+	margin-left: 77.5%;
+	margin-top: -70px;
+	-moz-box-shadow: 0px 0px 30px #FFF 
+    -webkit-box-shadow: 0px 0px 30px #FFF; 
+    box-shadow: 0px 0px 30px #FFF;
+    border: 0px solid #fff;
+    font-family: 'Lato', sans-serif;
+}
+#contactame{
+	color:#FFFFFF;
+	font-size: 1.5em;
+	margin-left: -49%;
+	margin-top: 34%;
+	position: absolute;
+}
+.oculto{
+	display: none;
+}
+
